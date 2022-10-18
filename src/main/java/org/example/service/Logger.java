@@ -24,4 +24,8 @@ public final class Logger {
                 .format(Calendar.getInstance().getTime());
         System.out.println("[" + dateAndTime + " " + num++ + "] " + msg);
     }
+
+    public int getNum() {
+        return num;
+    }
 }
